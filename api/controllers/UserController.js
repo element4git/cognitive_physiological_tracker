@@ -21,6 +21,10 @@ module.exports = {
     });
   },
 
+  createAccount: function(req, res){
+    return res.view('user/signup');
+  },
+
 
   /**
    * `UserController.logout()`
