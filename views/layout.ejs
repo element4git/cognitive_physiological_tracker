@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=typeof title == 'undefined' ? 'New Sails App' : title%></title>
+
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--STYLES-->
+    <link rel="stylesheet" href="/styles/importer.css">
+    <!--STYLES END-->
+  </head>
+
+  <body>
+    <%- body %>
+
+    <!--TEMPLATES-->
+    <script type="text/javascript" src="/jst.js"></script>
+    <!--TEMPLATES END-->
+    <!--SCRIPTS-->
+    <script src="/js/dependencies/sails.io.js"></script>
+    <script src="/vendor/js/dependencies/jquery.min.js"></script>
+    <script src="/vendor/js/dependencies/underscore-min.js"></script>
+    <script src="/vendor/js/dependencies/backbone-min.js"></script>
+    <script src="/vendor/js/dependencies/backbone.radio.min.js"></script>
+    <script src="/vendor/backbone.marionette/backbone.marionette.js"></script>
+    <script src="/vendor/bootstrap-sass/js/bootstrap.js"></script>
+    <script src="/js/layout/Layout.View.js"></script>
+    <script src="/js/model/Emotion.Model.js"></script>
+    <script src="/js/model/Location.Model.js"></script>
+    <script src="/js/model/Selection.Model.js"></script>
+    <script src="/js/route/Router.js"></script>
+    <script src="/js/view/dependencies/Selection.View.js"></script>
+    <script src="/js/view/EmotionList.View.js"></script>
+    <script src="/js/view/LocationList.View.js"></script>
+    <script src="/js/view/Notes.View.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/filter/Emotion.Filter.js"></script>
+    <!--SCRIPTS END-->
+  </body>
+</html>

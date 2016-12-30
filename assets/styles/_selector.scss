@@ -1,0 +1,15 @@
+.selector{
+	button{
+		width:100%;
+		height: 100%;
+	}
+	button.btn-info{
+		margin:0;
+		margin-bottom:$padding-base-horizontal;
+		&:after, &:before{
+			content: "";
+			display: block;
+			padding-bottom: 48%;
+		}
+	}
+}
