@@ -25,8 +25,9 @@ module.exports.policies = {
     login: true,
     signup: true
   },
-  
+
   SelectionController:{
-    '*': 'sessionAuth'
+    '*': 'sessionAuth',
+    create:true
   }
 };
