@@ -1,0 +1,11 @@
+<section class="container ">
+	<section id="main" class="panel-group" role="tablist" aria-multiselectable="true">
+		<% for(var emotion =0; emotion < emotionArray.length; emotion++){ %>
+			<article role="emotion">
+				<header><%= emotionArray[emotion].date %></header>
+				<section role="emotion"><%= emotionArray[emotion].emotion %></section>
+				<section role="notes"><%= emotionArray[emotion].notes %></section>
+			</article>
+		<% } %>
+	</section>
+</section>

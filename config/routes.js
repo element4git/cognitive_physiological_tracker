@@ -39,7 +39,9 @@ module.exports.routes = {
   'get /signup': 'UserController.createAccount',
   'post /login': 'UserController.login',
   'post /signup': 'UserController.signup',
-  '/logout': 'UserController.logout'
+  '/logout': 'UserController.logout',
+
+  '/dashboard':'DashboardController.init'
 
   /***************************************************************************
   *                                                                          *

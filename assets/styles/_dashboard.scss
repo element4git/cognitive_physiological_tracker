@@ -1,0 +1,14 @@
+article[role="emotion"]{
+	margin:10px;
+	border:solid 1px #ccc;
+	section, header{
+		padding:10px;
+	}
+	header{
+		background-color:#ccc;
+	}
+	section[role="emotion"]{
+		background-color:#264a84;
+		color:#fff;
+	}
+}
