@@ -15,6 +15,8 @@ module.exports = function login(inputs) {
   var req = this.req;
   var res = this.res;
 
+  inputs.successRedirect = '/dashboard';
+
   // Look up the user
   User.attemptLogin({
     email: inputs.email,
