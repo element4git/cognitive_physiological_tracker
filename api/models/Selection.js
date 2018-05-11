@@ -11,7 +11,7 @@ module.exports = {
   	emotion:  'string',
   	location: 'string',
   	notes:    'string',
-  	date:     'date'
+  	date:     { type: 'string', columnType: 'date' }
   }
 };
 

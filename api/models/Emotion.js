@@ -6,8 +6,6 @@
  */
 
 module.exports = {
-	connection:'mongo',
-			
 	attributes: {
 		emotion : {
 			type:'string',

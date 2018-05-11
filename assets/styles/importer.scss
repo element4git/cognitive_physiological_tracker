@@ -2,14 +2,13 @@
 @import "../vendor/bootstrap-sass/scss/mixins";
 
 
-
-
-
-
-
-
 // Reset and dependencies
 @import "../vendor/bootstrap-sass/scss/normalize";
+@import "../vendor/bootstrap-sass/scss/forms";
+@import "../vendor/bootstrap-sass/scss/input-groups";
+@import "../vendor/bootstrap-sass/scss/navs";
+@import "../vendor/bootstrap-sass/scss/navbar";
+@import "../vendor/bootstrap-sass/scss/dropdowns";
 @import "../vendor/bootstrap-sass/scss/print";
 @import "../vendor/bootstrap-sass/scss/glyphicons";
 
@@ -19,13 +18,24 @@
 @import "../vendor/bootstrap-sass/scss/code";
 @import "../vendor/bootstrap-sass/scss/grid";
 @import "../vendor/bootstrap-sass/scss/tables";
-@import "../vendor/bootstrap-sass/scss/forms";
+@import "../vendor/bootstrap-sass/scss/labels";
+@import "../vendor/bootstrap-sass/scss/modals";
+@import "../vendor/bootstrap-sass/scss/panels";
+@import "../vendor/bootstrap-sass/scss/wells";
 @import "buttons";
+@import "../vendor/bootstrap-sass/scss/badges";
+@import "../vendor/bootstrap-sass/scss/button-groups";
 
 // Utility classes
 @import "../vendor/bootstrap-sass/scss/utilities";
 @import "../vendor/bootstrap-sass/scss/responsive-utilities";
 @import "../vendor/bootstrap-sass/scss/component-animations";
+@import "../vendor/bootstrap-sass/scss/pagination";
+@import "../vendor/bootstrap-sass/scss/alerts";
+@import "../vendor/bootstrap-sass/scss/breadcrumbs";
+@import "../vendor/bootstrap-sass/scss/media";
+@import "../vendor/bootstrap-sass/scss/pager";
 
 @import "selector";
+@import "nav";
 @import "dashboard";

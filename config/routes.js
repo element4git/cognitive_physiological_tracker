@@ -41,7 +41,9 @@ module.exports.routes = {
   'post /signup': 'UserController.signup',
   '/logout': 'UserController.logout',
 
-  '/dashboard':'DashboardController.init'
+  '/dashboard':'DashboardController.init',
+
+  '/styleguide':{locals:{title:'Style Guide'},view: 'styleguide/homepage' }
 
   /***************************************************************************
   *                                                                          *

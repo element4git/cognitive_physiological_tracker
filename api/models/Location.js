@@ -6,8 +6,6 @@
  */
 
 module.exports = {
-	connection:'mongo',
-			
 	attributes: {
 		location : {
 			type:'string',

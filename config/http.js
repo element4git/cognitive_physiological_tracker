@@ -20,6 +20,13 @@ module.exports.http = {
   * `customMiddleware` config option.                                         *
   *                                                                           *
   ****************************************************************************/
+  locals: {
+    test:'yupers',
+    filters: {
+      formatDate: function(date) { return 'hello ses'; }
+    }
+  },
+
 
   middleware: {
 
